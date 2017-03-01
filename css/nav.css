@@ -1,0 +1,74 @@
+
+header {
+  font-family: 'Dosis', sans-serif;
+  padding: 19px;
+  background-color: #1A1A1A;
+  height: 75px;
+}
+
+header a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #eeeeee;
+  padding: 1.5px;
+  font-size: 165%;
+}
+
+h1 {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 10px;
+  margin: 10px;
+  padding: 21.5px;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.projects:hover {
+  color: #faff00;
+}
+
+.about:hover {
+  color: #ad00ff;
+}
+
+.resume:hover {
+  color: #00B0EB;
+}
+
+.photos:hover {
+  color: #f7443a;
+}
+
+.blog:hover {
+  color: #02B875;
+}
+
+.connect:hover {
+  color: #36F5AF;
+}
+
+@media (max-width: 1030px) {
+
+  header {
+    padding: 10px;
+    height: 65px;
+  }
+
+  header a {
+    font-size: 155%;
+    padding: 1px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 17px;
+  }
+}
