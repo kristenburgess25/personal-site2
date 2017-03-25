@@ -6,7 +6,7 @@
   display: block;
   background: url('../images/grandcanyon.jpg') no-repeat center center fixed;
   background-size: cover;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
 }
