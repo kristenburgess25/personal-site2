@@ -10,6 +10,31 @@
   display: block;
   text-align: center;
 }
+
+.contact-form-container {
+display: block;
+}
+
+input {
+  display: block;
+  height: 20px;
+  width: 100px;
+  padding: 10px;
+  margin-left: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  height: 30px;
+  width: 120px;
+  padding: 10px;
+  margin-left: 75%;
+}
+
+
+
 /*
 .contact li i {
   padding: 30 0 0 0;
@@ -19,36 +44,6 @@
   font-size: 30px;
   display: inline-block;
 }*/
-
-img.mail {
-  color: white;
-  width: 60px;
-  height: 60px;
-  padding: 30px 0 0 0;
-  display: inline-block;
-}
-
-.mail p {
-  color: #54F7AE;
-}
-
-img.phone {
-  color: white;
-  fill: currentColor;
-  height: 60px;
-  width: 60px;
-  display: inline-block;
-}
-
-img.contact {
-  width: 200px;
-  height: 300px;
-  padding: 30px 0px;
-  margin: auto;
-  left: 0;
-  position: center;
-  display: block;
-}
 
 h2.contact {
   color: #636363;
@@ -81,40 +76,16 @@ h2.contact {
     font-size: 24px;
     padding: 100px 0;
   }
-  img.mail {
-    width: 55px;
-    height: 55px;
-  }
-  img.phone {
-    height: 55px;
-    width: 55px;
-  }
 }
 
 @media (max-width: 620px) {
   .contact {
     font-size: 22px;
   }
-  img.mail {
-    width: 50px;
-    height: 50px;
-  }
-  img.phone {
-    height: 50px;
-    width: 50px;
-  }
 }
 
 @media (max-width: 420px) {
   .contact {
     font-size: 20px;
-  }
-  img.mail {
-    width: 45px;
-    height: 45px;
-  }
-  img.phone {
-    height: 45px;
-    width: 45px;
   }
 }
