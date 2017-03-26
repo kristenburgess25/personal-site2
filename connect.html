@@ -28,18 +28,14 @@
 <!--_____________contact___________________ -->
 
     <section class="contact">
-      <article>
-        <img class="mail" src="SVG-Icons/multimedia.svg" alt="mail"/>
-        <!-- <li><i class="icon-mail2"></i></li> -->
-          <p>
-            burgess_kris10@gmail.com
-          </p>
-        <!-- <img class="phone" src="SVG-Icons/technology-5.svg" alt="phone"/> -->
-        <!-- <li><i class="icon-phone"></i></li> -->
-          <!-- <p>
-            303.349.8791
-          </p> -->
-      </article>
+      <form class="contact-form-container"
+      method="POST"  action="http://formspree.io/burgess.kris10@gmail.com">
+        <input type="email" name="email" placeholder="Your Email">
+        <input name="message" placeholder="Your message">
+        </input>
+        <button type="submit">Send
+        </button>
+      </form>
     </section>
   </body>
 
