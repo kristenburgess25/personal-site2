@@ -6,8 +6,7 @@
   display: block;
   background: url('../images/grandcanyon.jpg') no-repeat center center fixed;
   background-size: cover;
-  /*display: flex;*/
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
 }
 
@@ -16,9 +15,10 @@
   font-family: 'Oswald', sans-serif;
   text-align: center;
   display: flex;
-  font-size: 50px;
+  font-size: 1%;
   color: white;
   line-height: 1.25;
+  margin-left: 1%;
 }
 
 /*________________________________________*/

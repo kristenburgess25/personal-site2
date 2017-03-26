@@ -3,14 +3,14 @@ header {
   font-family: 'Dosis', sans-serif;
   padding: 19px;
   background-color: #1A1A1A;
-  height: 75px;
+  height: 120px;
 }
 
 header a {
   text-decoration: none;
   list-style-type: none;
   color: #eeeeee;
-  padding: 1.5px;
+  padding: 3px;
   font-size: 165%;
 }
 
@@ -24,6 +24,7 @@ h1 {
 
 nav {
   float: right;
+  margin-top: -12px;
 }
 
 li {
