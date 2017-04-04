@@ -3,7 +3,7 @@ header {
   font-family: 'Dosis', sans-serif;
   padding: 19px;
   background-color: #1A1A1A;
-  height: 120px;
+  height: 100px;
 }
 
 header a {
@@ -11,7 +11,7 @@ header a {
   list-style-type: none;
   color: #eeeeee;
   padding: 3px;
-  font-size: 130%;
+  font-size: 110%;
 }
 
 h1 {
@@ -42,14 +42,6 @@ li {
 
 .resume:hover {
   color: #00B0EB;
-}
-
-.photos:hover {
-  color: #f7443a;
-}
-
-.blog:hover {
-  color: #02B875;
 }
 
 .connect:hover {

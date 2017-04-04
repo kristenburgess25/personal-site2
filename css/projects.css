@@ -1,11 +1,14 @@
-
+.logo {
+  margin-left: 20px;
+  letter-spacing: 3px;
+}
 
 .projects-list {
   color: teal;
   line-height: 1.5;
   text-align: center;
-  padding: 15px 0 60px 0;
-  margin: auto;
+  padding: 1px 0 60px 0;
+  /*margin: auto;*/
   background-color: #1A1A1A;
   display: block;
   align-items: center;
