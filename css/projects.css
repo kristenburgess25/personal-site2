@@ -23,7 +23,7 @@
 
 .projects-list h2 {
   font-family: 'Oswald', sans-serif;
-  color: #f7443a;
+  color: red;
   font-size: 2.5em;
   margin: 45px 15px 30px 15px;
 }
@@ -37,7 +37,7 @@
   margin: 10px auto 10px auto;
   padding: 15px;
   /*line-height: 2.5;*/
-  color: yellow;
+  color: red;
 }
 
 .projects-list h4 {
