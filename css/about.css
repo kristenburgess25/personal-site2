@@ -164,7 +164,7 @@ h3.languages {
 
 .hobbies {
   font-family: 'Open Sans', sans-serif;
-  color: #1A1A1A;
+  color: white;
   line-height: 1.5;
   text-align: center;
   font-size: 18px;
@@ -174,7 +174,7 @@ h3.languages {
 
 .hobbies h2 {
   font-family: 'Oswald', sans-serif;
-  color: #ffffff;
+  color: maroon;
   font-size: 250%;
   margin: 30px auto;
 }
