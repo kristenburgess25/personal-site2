@@ -3,7 +3,7 @@ header {
   font-family: 'Dosis', sans-serif;
   padding: 19px;
   background-color: #1A1A1A;
-  height: 100px;
+  height: 15%;
 }
 
 header a {
@@ -19,7 +19,7 @@ h1 {
   text-indent: -9999px;
   width: 10px;
   margin: 10px;
-  padding: 21.5px;
+  /*padding: 21.5px;*/
 }
 
 nav {
@@ -48,20 +48,46 @@ li {
   color: #36F5AF;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 650px) {
 
   header {
     padding: 10px;
-    height: 65px;
-  }
-
-  header a {
-    font-size: 155%;
-    padding: 1px;
+    height: auto;
   }
 
   li {
-    display: inline-block;
-    padding: 17px;
+    display: block;
+  }
+
+  .logo {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+
+  header {
+    padding: 10px;
+    height: 150px;
+  }
+
+  li {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+
+  header {
+    padding: 10px;
+    height: 150px;
+  }
+
+  li {
+    display: block;
+  }
+
+  .logo {
+    visibility: hidden;
   }
 }

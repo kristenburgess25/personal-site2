@@ -284,7 +284,7 @@ h3.languages {
 @media (max-width: 600px) {
   .container {
     display: inherit;
-    background: url('../images/lodo-profile-larger-color.jpg') no-repeat center center fixed;
+    background: url('../images/grandcanyon.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 600px;
   }
