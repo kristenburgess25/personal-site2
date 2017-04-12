@@ -27,9 +27,6 @@
     <section class="projects-list">
       <section class="top-container">
       <h2 class="projects-intro-title"> PROJECTS </h2>
-      <p>
-        The following set of projects collectively exhibit my progression through Turing: School of Software and Design's Front-End Development program.
-      </p>
 
     </section>
 
@@ -37,11 +34,11 @@
         <h3>Weather Forecast</h3>
         <div><img class="weather-tracker-image" src="./images/weatherforecast.jpeg" alt="productivity picture"/></div>
         <p class="description">
-         This simple weather app uses Google's geolocation API to find user's current location and access local weather. The user can also "Pin" or save certain cities. (Note: You must "Allow use of unsafe scripts" in your browser for this app to run, because of the particular weather data API we were assigned to use.)
+         This simple weather app uses Google's geolocation API to find user's current location and access local weather. The user can also "Pin" or save certain cities. (Note: You must "Load unsafe scripts" in your browser for this app to run, because of the particular weather data API we were assigned to use.)
          </p>
          <br>
          <p class="tech-used">
-         Technologies Used : React, Redux, Google API, Jest, HTML, CSS
+         Technologies Used : React, Redux, Google Geolocation API, Jest
         </p>
 
         <section class="links">
@@ -56,11 +53,12 @@
         <h3>Nimble Network</h3>
         <div><img class="nimble-network-image" src="./images/nimblenetwork.jpeg" alt="productivity picture"/></div>
         <p class="description">
-         This simple weather app uses Google's geolocation API to find user's current location and access local weather. The user can also "Pin" or save certain cities. (Note: You must "Allow use of unsafe scripts" in your browser for this app to run, because of the particular weather data API we were assigned to use.)
+         NimbleNetwork is a basic contact management app, intended for use at networking events. It allows its user to collect a variety of contact information on new connections. Furthermore, you can save contacts of particular interest to a Follow-Up list.
+         Users sign in through Google, and their contacts are stored in a user-specific Google Firebase database.
          </p>
          <br>
          <p class="tech-used">
-         Technologies Used : React, Redux, Google API, Jest, HTML, CSS
+         Technologies Used : React, Google Firebase, Enzyme, SASS/SCSS
         </p>
         <section class="links">
           <h5><a href="http://frontend.turing.io/projects/fire-bae.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
@@ -73,38 +71,46 @@
         <h3>CanChaser</h3>
         <div><img class="can-chaser-image" src="./images/canchaser.jpeg" alt="productivity picture"/></div>
         <p class="description">
-         This simple weather app uses Google's geolocation API to find user's current location and access local weather. The user can also "Pin" or save certain cities. (Note: You must "Allow use of unsafe scripts" in your browser for this app to run, because of the particular weather data API we were assigned to use.)
+         CanChaser was my personal project during my time at Turing. Competitive barrel racing is a major part of my life, and it's a major pain point for barrel racers to find information on events. This project is still a work in progress, but it allows competitors to search for races based on a number of criteria such as location, payout percentage, added money, and sanctioning organizations. A user can "favorite" events that they want to save. This app also allows event producers to list their events.
          </p>
          <br>
          <p class="tech-used">
-         Technologies Used : React, Redux, Google API, Jest, HTML, CSS
+         Technologies Used : React, Google Firebase, Enzyme
         </p>
         <section class="links">
-          <h5><a href="http://frontend.turing.io/projects/shoot-the-breeze.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
-          <h5><a href="https://github.com/kristenburgess25/shoot-the-breeze" class="shoot-the-breeze-github" target="_blank">Codebase</a></h5>
-          <h5><a href="#" class="shoot-the-breeze-live-HL" target="_blank">See It In Action</a></h5>
+          <h5><a href="http://frontend.turing.io/projects/self-directed-project.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kristenburgess25/CanChaser/tree/Eval" class="shoot-the-breeze-github" target="_blank">Codebase</a></h5>
+          <h5> <a> (See "Eval" branch of codebase)</a> </h5>
         </section>
       </article>
 
       <article class="Jet-Fuel">
         <h3>BookMarker</h3>
         <div><img class="bookmarker-image" src="./images/jetfuel.jpeg" alt="productivity picture"/></div>
-          <p>
-              I cry and cry and cry unless you pet me, and then maybe i cry just for fun stretch my slave human didn't give me any food so i pooped on the floor for leave fur on owners clothes. Chew iPad power cord love to play with owner's hair tie and spit up on light gray carpet instead of adjacent linoleum or nap all day.
-          </p>
+        <p class="description">
+          The BookMarker project was my first foray into back-end engineering. The design/UX/UI on this project is certainly some of my lowest quality, but the focus of this project was completely on engineering, not design. This app allows users to create a folder to hold bookmark links for various websites. When a user adds a bookmark link, a shortened URL is generated. The app notes the date the bookmark was added and keeps count of the number of times that link is clicked.
+          All of this information is held in a SQL database, accessed via Postgres.
+         </p>
+         <br>
+         <p class="tech-used">
+         Technologies Used : Node.js, Express, PostgreSQL, KNEX
+        </p>
         <section class="links">
-          <h5><a href="http://frontend.turing.io/projects/number-guesser-in-react.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="http://frontend.turing.io/projects/jet-fuel.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
           <h5><a href="https://github.com/kristenburgess25/jet-fuel" class="number-guesser-react-github" target="_blank">Codebase</a></h5>
-          <h5><a href="#" class="number-guesser-react-live-HL" target="_blank">See It In Action</a></h5>
         </section>
       </article>
 
       <article class="2DoBox">
         <h3>2Do Box</h3>
         <div><img class="todo-list-image" src="./images/2dobox.jpeg" alt="productivity picture"/></div>
-          <p>
-              I cry and cry and cry unless you pet me, and then maybe i cry just for fun stretch my slave human didn't give me any food so i pooped on the floor for leave fur on owners clothes. Chew iPad power cord love to play with owner's hair tie and spit up on light gray carpet instead of adjacent linoleum or nap all day.
-          </p>
+        <p class="description">
+          This app is a simple task manager, allowing users to add tasks to a ToDo list, rank them by importance, and sort/filter/search accordingly.
+         </p>
+         <br>
+         <p class="tech-used">
+         Technologies Used : jQuery, SASS/SCSS, Selenium
+        </p>
         <section class="links">
           <h5><a href="http://frontend.turing.io/projects/2DoBox-Pivot" class="game-time-github" target="_blank">Original Assignment</a></h5>
           <h5><a href="https://github.com/kristenburgess25/2DoBox-Pivot" class="todo-list-github" target="_blank">Codebase</a></h5>
@@ -115,13 +121,14 @@
       <article class="game-time">
         <h3>Game Time - Hangman </h3>
         <div><img class="game-time-image" src="./images/hangman.jpeg" alt="papaya leaf"/></div>
-          <p>
-               I cry and cry and cry unless you pet me, and then maybe i cry just for fun stretch my slave human didn't give me any food so i pooped on the floor for leave fur on owners clothes. Chew iPad power cord love to play with owner's hair tie and spit up on light gray carpet instead of adjacent linoleum or nap all day.
-          </p>
+          <p class="description">
+          The final project of the first module of the Front-End Engineering program at Turing is to build a logic-heavy game. My partner and I chose to build the classic game of Hangman. Because this game was built in the fall around Halloween, it is themed accordingly.
+         </p>
+          <br>
         <section class="links">
           <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/game-time.md" class="game-time-github" target="_blank">Original Assignment</a></h5>
           <h5><a href="https://github.com/kristenburgess25/game-time" class="game-time-github" target="_blank">Codebase</a></h5>
-          <h5><a href="https://kristenburgess25.github.io/game-time/" class="game-time-live-HL" target="_blank">Play the Live Game</a></h5>
+          <h5><a href="https://kristenburgess25.github.io/game-time/" class="game-time-live-HL" target="_blank">Play the Game</a></h5>
         </section>
       </article>
 

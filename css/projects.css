@@ -23,9 +23,10 @@
 .projects-list h2 {
   font-family: 'Lobster', cursive;
   color: crimson;
-  font-size: 2.5em;
-  margin: 45px 15px 30px 15px;
-  letter-spacing: 5px;
+  font-size: 4em;
+  margin: 30px 15px 30px 15px;
+  letter-spacing: 20px;
+  text-align: center;
 }
 
 .projects-list h3 {
@@ -80,7 +81,7 @@ img {
 
 .links h5 a:hover {
   text-decoration: none;
-  color: #54F7AE;
+  color: crimson;
 }
 
 
