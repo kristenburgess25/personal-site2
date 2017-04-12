@@ -1,0 +1,34 @@
+#hero {
+    background: url('../images/hillscows.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#tagline {
+  z-index: 1;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  display: flex;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: white;
+  line-height: 1.25;
+  margin-left: 10%;
+  margin-top: -30px;
+  padding: 15px;
+}
+
+a, tag {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: crimson;
+}

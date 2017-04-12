@@ -1,6 +1,6 @@
 
 header {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Lobster', cursive;
   padding: 19px;
   background-color: #1A1A1A;
   height: 15%;
@@ -12,6 +12,11 @@ header a {
   color: #eeeeee;
   padding: 3px;
   font-size: 110%;
+}
+
+.logo {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
 }
 
 h1 {
