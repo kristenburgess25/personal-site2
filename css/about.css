@@ -17,6 +17,7 @@
 
 h2 {
   letter-spacing: 5px;
+  font-family: 'Lobster', cursive;
 }
 
 
@@ -38,7 +39,8 @@ h2 {
 }
 
 .skills h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 5px;
   color: teal;
   font-size: 250%;
 }
@@ -76,7 +78,7 @@ h3.languages {
 }
 
 .intention h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: #1A1A1A;
   font-size: 250%;
 }
@@ -130,7 +132,7 @@ h3.languages {
 }
 
 .strengths h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: teal;
   font-size: 250%;
   margin: 10px auto;
@@ -159,7 +161,7 @@ h3.languages {
 }
 
 .hobbies h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: maroon;
   font-size: 250%;
   margin: 30px auto;

@@ -7,7 +7,7 @@
   color: teal;
   line-height: 1.5;
   text-align: center;
-  padding: 1px 0 60px 0;
+  padding: 0px 0 60px 0;
   margin: auto;
   background-color: #1A1A1A;
   display: block;
@@ -28,8 +28,6 @@
   margin: 45px 15px 30px 15px;
   letter-spacing: 5px;
 }
-
-
 
 .projects-list h3 {
   font-family: 'Lobster', cursive;
@@ -62,13 +60,6 @@ img {
   /*padding: 0px 30px 30px 30px;*/
   max-width: 750px;
   font-size: 16px;
-}
-
-.craft-intro-list {
-  display: flex;
-  flex-direction: column;
-  color: #fbc44a;
-  margin: 0 0 30px 0;
 }
 
 .links h5 a {
