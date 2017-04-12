@@ -10,16 +10,16 @@
   align-items: center;
 }
 
-#tagline {
-  z-index: 1;
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  display: flex;
-  font-size: 1%;
-  color: white;
-  line-height: 1.25;
-  margin-left: 1%;
+.logo {
+  margin-left: 20px;
+  letter-spacing: 3px;
 }
+
+h2 {
+  letter-spacing: 5px;
+  font-family: 'Lobster', cursive;
+}
+
 
 /*________________________________________*/
 /*Skills*/
@@ -39,7 +39,8 @@
 }
 
 .skills h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 5px;
   color: teal;
   font-size: 250%;
 }
@@ -73,11 +74,11 @@ h3.languages {
   text-align: center;
   padding: 60px;
   margin: auto;
-  background-color: #0188cb;
+  background-color: teal;
 }
 
 .intention h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: #1A1A1A;
   font-size: 250%;
 }
@@ -88,7 +89,7 @@ h3.languages {
   margin: auto;
   padding: 30px;
   line-height: 2.5;
-  color: yellow;
+  color: maroon;
 }
 
 .intention p {
@@ -107,17 +108,18 @@ h3.languages {
 }
 
 /*___________________________________*/
-/*mini-bio*/
+/*strengths*/
 
-.mini-bio {
+
+.strengths {
   font-family: 'Open Sans', sans-serif;
-  color: #636363;
+  color: white;
   line-height: 1.5;
   text-align: center;
   font-size: 18px;
   padding: 30px;
   margin: 0 0 30px 0;
-  background-color: #d0d0d0;
+  background-color: maroon;
 }
 
 .hyperlink {
@@ -129,57 +131,17 @@ h3.languages {
   color: #D32F2F;
 }
 
-.mini-bio h2 {
-  font-family: 'Oswald', sans-serif;
-  color: #0188cb;
+.strengths h2 {
+  font-family: 'Lobster', cursive;
+  color: teal;
   font-size: 250%;
-  margin: 30px auto;
-}
-
-.mini-bio p {
-  padding: 30px 0;
-}
-
-
-/*___________________________________*/
-/*strengths*/
-
-.strengths {
-  background-color: white;
-  margin: auto;
-  display: block;
-  max-width: 1050px;
-  max-height: auto;
-  padding: 30px 0;
-}
-
-.strengths article {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  vertical-align: top;
-}
-
-.strengths h3 {
-  width: 175px;
-  height: 60px;
-  bottom: 40px;
-  padding: 50px 0;
-  font-family: 'Dosis', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  vertical-align: middle;;
+  margin: 10px auto;
 }
 
 .strengths p {
-  color: #636363;
-  padding: 30px 30px 20px 0;
-  max-width: 600px;
-  height: 120px;
-  text-align: left;
-  line-height: 1.2;
-  display: inline-block;
+  padding: 30px 0;
 }
+
 
 #restorative {
   margin-bottom: 30px;
@@ -190,7 +152,7 @@ h3.languages {
 
 .hobbies {
   font-family: 'Open Sans', sans-serif;
-  color: #1A1A1A;
+  color: white;
   line-height: 1.5;
   text-align: center;
   font-size: 18px;
@@ -199,8 +161,8 @@ h3.languages {
 }
 
 .hobbies h2 {
-  font-family: 'Oswald', sans-serif;
-  color: #ffffff;
+  font-family: 'Lobster', cursive;
+  color: maroon;
   font-size: 250%;
   margin: 30px auto;
 }
@@ -310,7 +272,7 @@ h3.languages {
 @media (max-width: 600px) {
   .container {
     display: inherit;
-    background: url('../images/lodo-profile-larger-color.jpg') no-repeat center center fixed;
+    background: url('../images/grandcanyon.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 600px;
   }

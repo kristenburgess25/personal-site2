@@ -1,9 +1,9 @@
 
 header {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Lobster', cursive;
   padding: 19px;
   background-color: #1A1A1A;
-  height: 120px;
+  height: 15%;
 }
 
 header a {
@@ -11,7 +11,12 @@ header a {
   list-style-type: none;
   color: #eeeeee;
   padding: 3px;
-  font-size: 165%;
+  font-size: 110%;
+}
+
+.logo {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -19,7 +24,7 @@ h1 {
   text-indent: -9999px;
   width: 10px;
   margin: 10px;
-  padding: 21.5px;
+  /*padding: 21.5px;*/
 }
 
 nav {
@@ -44,32 +49,50 @@ li {
   color: #00B0EB;
 }
 
-.photos:hover {
-  color: #f7443a;
-}
-
-.blog:hover {
-  color: #02B875;
-}
-
 .connect:hover {
   color: #36F5AF;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 650px) {
 
   header {
     padding: 10px;
-    height: 65px;
-  }
-
-  header a {
-    font-size: 155%;
-    padding: 1px;
+    height: auto;
   }
 
   li {
-    display: inline-block;
-    padding: 17px;
+    display: block;
+  }
+
+  .logo {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+
+  header {
+    padding: 10px;
+    height: 150px;
+  }
+
+  li {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+
+  header {
+    padding: 10px;
+    height: 150px;
+  }
+
+  li {
+    display: block;
+  }
+
+  .logo {
+    visibility: hidden;
   }
 }
