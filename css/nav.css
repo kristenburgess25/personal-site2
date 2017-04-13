@@ -19,6 +19,10 @@ header a {
   letter-spacing: 2px;
 }
 
+.logo:hover {
+  color: crimson
+}
+
 h1 {
   display: inline-block;
   text-indent: -9999px;
